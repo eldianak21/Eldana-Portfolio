@@ -5,8 +5,10 @@ const Home = () => {
   return (
     <main className="flex items-center justify-center h-screen bg-gray-800">
       <div className="max-w-md text-center">
-        <div className="rounded-full w-32 h-32 overflow-hidden mb-6">
-          <img src={profile} alt="Profile" className="w-full h-full object-cover" />
+        <div className="flex justify-center mb-6">
+          <div className="rounded-full w-32 h-32 overflow-hidden">
+            <img src={profile} alt="Profile" className="w-full h-full object-cover" />
+          </div>
         </div>
         <h1 className="text-3xl font-bold mb-4 text-white">Eldana Kibru Berta</h1>
         <p className="text-gray-400 mb-8">

@@ -12,8 +12,7 @@ const Header = () => {
           <li><a href="#" className="text-white hover:text-gray-400">Home</a></li>
           <li><a href="#" className="text-white hover:text-gray-400">About</a></li>
           <li><a href="#" className="text-white hover:text-gray-400">Testimonials</a></li>
-          <li><a href="#" className="text-white hover:text-gray-400">Skills</a></li>
-          <li><a href="#" className="text-white hover:text-gray-400">Get in Touch</a></li>
+          <li><a href="#" className="text-white hover:text-gray-400">Contact</a></li>
         </ul>
       </nav>
     </header>
