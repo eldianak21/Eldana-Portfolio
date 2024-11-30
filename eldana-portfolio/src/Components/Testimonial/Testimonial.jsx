@@ -1,24 +1,27 @@
 import React from 'react';
+import Ezedin from "../../assets/ezedin.jpeg";
+import Abreham from "../../assets/abreham.jpg";
+import Junid from "../../assets/junid.jpeg";
 
 // Sample testimonial data including images
 const testimonials = [
   {
-    name: "Alice Johnson",
-    title: "CEO, Tech Innovators",
+    name: "Ezedin Kamil",
+    title: "CEO at Ibex Ethiopia Technology and Promotion, Tech Innovators",
     quote: "Eldana's expertise in software development has transformed our projects. Her attention to detail and innovative solutions are unmatched!",
-    image: "https://via.placeholder.com/100", // Replace with actual image URLs
+    image: Ezedin, // Directly use the imported image
   },
   {
-    name: "Mark Smith",
-    title: "Project Manager, Creative Agency",
+    name: "Abreham Assefa",
+    title: "CEO at Ahadu Web",
     quote: "Working with Eldana was a game-changer for our team. She delivered high-quality work on time and exceeded our expectations.",
-    image: "https://via.placeholder.com/100", // Replace with actual image URLs
+    image: Abreham, // Directly use the imported image
   },
   {
-    name: "Sarah Brown",
-    title: "Product Owner, StartUp Co.",
+    name: "Junid Mohammed",
+    title: "CEO at Hex Lab",
     quote: "Eldana has a unique ability to understand client needs and translate them into effective technical solutions. Highly recommend!",
-    image: "https://via.placeholder.com/100", // Replace with actual image URLs
+    image: Junid, // Directly use the imported image
   },
 ];
 
